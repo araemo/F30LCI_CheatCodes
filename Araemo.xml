@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FDL>
+	<!--Araemo-->
+	<cafd id="000024C3" name="FLE_02" author="Araemo" series="F030">
+		<code description="F30 LCI w/ Adaptive LEDs - NGHB. Apply to Both FLEs">
+			<group id="3000">
+				<function start="4" end="4" comment="HlPrjLabel_HlType" mask="11110000b">01_Value</function>
+			</group>
+			<group id="3003">
+				<function start="0" end="9" comment="Schlectwetter_C1_Idx" mask="11111111b">04_Value</function>
+				<function start="10" end="19" comment="Schlectwetter_C1_Idx" mask="11111111b">04_Value</function>
+				<function start="20" end="29" comment="Stadt_V_Idx" mask="11111111b">04_Value</function>
+				<function start="30" end="39" comment="SAE_Idx" mask="11111111b">04_Value</function> 
+				<function start="40" end="49" comment="H_10_Landstrasse_C_Idx" mask="11111111b">04_Value</function> 
+				<function start="50" end="59" comment="H_8_Autobahn_E3_Idx" mask="11111111b">04_Value</function> 
+				<function start="60" end="69" comment="H_6_Autobahn_E2_Idx" mask="11111111b">04_Value</function> 
+				<function start="70" end="79" comment="H_5_Autobahn_E1_Idx" mask="11111111b">04_Value</function> 
+				<function start="80" end="89" comment="H_4_Autobahn_E_Idx" mask="11111111b">04_Value</function> 
+				<function start="90" end="99" comment="H_2_Idx" mask="11111111b">04_Value</function> 
+				<function start="100" end="109" comment="H_0_Idx" mask="11111111b">04_Value</function> 
+				<function start="110" end="119" comment="H_plus2_Idx" mask="11111111b">04_Value</function> 
+				<function start="120" end="129" comment="H_plus4_Idx" mask="11111111b">04_Value</function>
+				<function start="130" end="139" comment="Blendfreies_Fernlicht_Idx" mask="11111111b">06_Value</function>
+				<function start="140" end="149" comment="Volles_Fernlicht_" mask="11111111b">06_Value</function>
+			</group>
+			<group id="3004">
+				<function start="0" end="9" comment="DRL_Idx" mask="11111111b">05_Value</function>
+				<function start="10" end="19" comment="POLI1_Idx" mask="11111111b">06_Value</function>
+				<function start="20" end="29" comment="POLI2_Idx" mask="11111111b">06_Value</function> 
+				<function start="30" end="39" comment="POLI3_Idx" mask="11111111b">06_Value</function>
+				<function start="40" end="49" comment="PLI_Idx" mask="11111111b">06_Value</function>
+				<function start="50" end="59" comment="CORNL_Idx" mask="11111111b">03_Value</function>
+				<function start="60" end="69" comment="WELL1_Idx" mask="11111111b">06_Value</function>
+				<function start="70" end="79" comment="WELL2_Idx" mask="11111111b">06_Value</function>
+				<function start="80" end="89" comment="WELL3_Idx" mask="11111111b">06_Value</function>
+				<function start="90" end="99" comment="WELL4_Idx" mask="11111111b">06_Value</function>
+				<function start="100" end="109" comment="FMH_Idx" mask="11111111b">06_Value</function>
+				<function start="110" end="119" comment="REMLI_Idx" mask="11111111b">06_Value</function>
+				<function start="120" end="129" comment="HBBLINK_Idx" mask="11111111b">07_Value</function>
+				<function start="130" end="139" comment="DWABLINK_Idx" mask="11111111b">04_Value</function>
+				<function start="140" end="149" comment="PANICMODE_Idx" mask="11111111b">04_Value</function>
+				<function start="150" end="159" comment="RAIDALARM_Idx" mask="11111111b">07_Value</function>
+				<function start="160" end="169" comment="BLINKEN_Idx" mask="11111111b">06_Value</function>
+				<function start="170" end="179" comment="ECO1_Idx" mask="11111111b">03_Value</function>
+				<function start="190" end="199" comment="BLINKEN_PO_Idx" mask="11111111b">06_Value</function>
+			</group>
+			<group id="3005">
+				<!--LmmIdx00-->
+				<function start="0" end="0" comment="LmmIdx00_Intensity" mask="11111111b">03_Value</function>
+				<function start="3" end="3" comment="LmmIdx00_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx01-->
+				<function start="4" end="4" comment="LmmIdx01_Intensity" mask="11111111b">03_Value</function>
+				<function start="5" end="5" comment="LmmIdx01_TimeOn" mask="11111111b">02_Value</function>
+				<function start="6" end="6" comment="LmmIdx01_TimeOff" mask="11111111b">02_Value</function>
+				<function start="7" end="7" comment="LmmIdx01_Priority" mask="00001111b">04_Value</function>
+				<!--LmmIdx02-->
+				<function start="8" end="8" comment="LmmIdx02_Intensity" mask="11111111b">01_Value</function>
+				<function start="9" end="9" comment="LmmIdx02_TimeOn" mask="11111111b">02_Value</function>
+				<function start="10" end="10" comment="LmmIdx02_TimeOff" mask="11111111b">02_Value</function>
+				<function start="11" end="11" comment="LmmIdx02_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx03-->
+				<function start="12" end="12" comment="LmmIdx03_Intensity" mask="11111111b">02_Value</function>
+				<function start="13" end="13" comment="LmmIdx03_TimeOn" mask="11111111b">01_Value</function>
+				<function start="14" end="14" comment="LmmIdx03_TimeOff" mask="11111111b">01_Value</function>
+				<function start="15" end="15" comment="LmmIdx03_Priority" mask="00001111b">03_Value</function>
+				<function start="15" end="15" comment="LmmIdx03_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx04-->
+				<function start="16" end="16" comment="LmmIdx04_Intensity" mask="11111111b">03_Value</function>
+				<function start="17" end="17" comment="LmmIdx04_TimeOn" mask="11111111b">02_Value</function>
+				<function start="18" end="18" comment="LmmIdx04_TimeOff" mask="11111111b">02_Value</function>
+				<function start="19" end="19" comment="LmmIdx04_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx05-->
+				<function start="20" end="20" comment="LmmIdx05_Intensity" mask="11111111b">03_Value</function>
+				<function start="23" end="23" comment="LmmIdx05_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx06-->
+				<function start="24" end="24" comment="LmmIdx06_Intensity" mask="11111111b">01_Value</function>
+				<function start="25" end="25" comment="LmmIdx06_TimeOn" mask="11111111b">03_Value</function>
+				<function start="26" end="26" comment="LmmIdx06_TimeOff" mask="11111111b">01_Value</function>
+				<function start="27" end="27" comment="LmmIdx06_Priority" mask="00001111b">03_Value</function>
+				<!--LmmIdx07-->
+				<function start="29" end="29" comment="LmmIdx07_TimeOn" mask="11111111b">03_Value</function>
+				<function start="30" end="30" comment="LmmIdx07_TimeOff" mask="11111111b">03_Value</function>
+				<!--LmmIdx08-->
+				<function start="32" end="32" comment="LmmIdx08_Intensity" mask="11111111b">03_Value</function>
+				<function start="33" end="33" comment="LmmIdx08_TimeOn" mask="11111111b">03_Value</function>
+				<function start="34" end="34" comment="LmmIdx08_TimeOff" mask="11111111b">03_Value</function>
+				<function start="35" end="35" comment="LmmIdx08_Priority" mask="00001111b">02_Value</function>
+				<!--LmmIdx09-->
+				<function start="36" end="36" comment="LmmIdx09_Intensity" mask="11111111b">03_Value</function>
+				<function start="37" end="37" comment="LmmIdx09_TimeOn" mask="11111111b">03_Value</function>
+				<function start="38" end="38" comment="LmmIdx09_TimeOff" mask="11111111b">03_Value</function>
+				<function start="39" end="39" comment="LmmIdx09_Priority" mask="00001111b">01_Value</function>
+				<function start="39" end="39" comment="LmmIdx09_RampType" mask="00110000b">01_Value</function>
+				<function start="39" end="39" comment="LmmIdx09_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx10-->
+				<function start="41" end="41" comment="LmmIdx10_TimeOn" mask="11111111b">01_Value</function>
+				<function start="42" end="42" comment="LmmIdx10_TimeOff" mask="11111111b">01_Value</function>
+				<function start="43" end="43" comment="LmmIdx10_Priority" mask="00001111b">01_Value</function>
+				<function start="43" end="43" comment="LmmIdx10_RampType" mask="00110000b">01_Value</function>
+				<!--LmmIdx11-->
+				<function start="45" end="45" comment="LmmIdx11_TimeOn" mask="11111111b">01_Value</function>
+				<function start="46" end="46" comment="LmmIdx11_TimeOff" mask="11111111b">01_Value</function>
+				<function start="47" end="47" comment="LmmIdx11_Priority" mask="00001111b">03_Value</function>
+				<function start="47" end="47" comment="LmmIdx11_RampType" mask="00110000b">01_Value</function>
+				<!--LmmIdx12-->
+				<function start="48" end="48" comment="LmmIdx12_Intensity" mask="11111111b">01_Value</function>
+				<function start="49" end="49" comment="LmmIdx12_TimeOn" mask="11111111b">02_Value</function>
+				<function start="50" end="50" comment="LmmIdx12_TimeOff" mask="11111111b">02_Value</function>
+				<function start="51" end="51" comment="LmmIdx12_Priority" mask="00001111b">03_Value</function>
+				<function start="51" end="51" comment="LmmIdx12_RampType" mask="00110000b">02_Value</function>
+				<!--LmmIdx13-->
+				<function start="52" end="52" comment="LmmIdx13_Intensity" mask="11111111b">02_Value</function>
+				<function start="53" end="53" comment="LmmIdx13_TimeOn" mask="11111111b">02_Value</function>
+				<function start="54" end="54" comment="LmmIdx13_TimeOff" mask="11111111b">02_Value</function>
+				<function start="55" end="55" comment="LmmIdx13_Priority" mask="00001111b">02_Value</function>
+				<function start="55" end="55" comment="LmmIdx13_RampType" mask="00110000b">02_Value</function>
+				<function start="55" end="55" comment="LmmIdx13_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx14-->
+				<function start="59" end="59" comment="LmmIdx14_ErrorImpact" mask="01000000b">00</function>
+				<!--LmmIdx15-->
+				<function start="60" end="60" comment="LmmIdx15_Intensity" mask="11111111b">02_Value</function> 
+				<function start="63" end="63" comment="LmmIdx15_Priority" mask="00001111b">02_Value</function>
+				<!--LmmReLut0-->
+				<function start="134" end="134" comment="LmmReLut_LgtFct0" mask="00111111b">02_Value</function>
+				<function start="134" end="134" comment="LmmReLut_LogLmpLow0" mask="11000000b">02_Value</function>
+				<function start="135" end="135" comment="LmmReLut_Idx0" mask="11111100b">02_Value</function>
+				<!--LmmReLut1-->
+				<function start="136" end="136" comment="LmmReLut_LgtFct1" mask="00111111b">02_Value</function>
+				<function start="136" end="136" comment="LmmReLut_LogLmpLow1" mask="11000000b">02_Value</function>
+				<function start="137" end="137" comment="LmmReLut_Idx1" mask="11111100b">02_Value</function>
+				<!--LmmReLut2-->
+				<function start="138" end="138" comment="LmmReLut_LgtFct2" mask="00111111b">02_Value</function> 
+				<function start="138" end="138" comment="LmmReLut_LogLmpLow2" mask="11000000b">02_Value</function>
+				<function start="139" end="139" comment="LmmReLut_Idx2" mask="11111100b">02_Value</function>
+				<!--LmmReLut3-->
+				<function start="140" end="140" comment="LmmReLut_LgtFct3" mask="00111111b">02_Value</function>
+				<function start="140" end="140" comment="LmmReLut_LogLmpLow3" mask="11000000b">02_Value</function>
+				<function start="141" end="141" comment="LmmReLut_Idx3" mask="11111100b">02_Value</function>
+				<!--LmmReLut4-->
+				<function start="142" end="142" comment="LmmReLut_LgtFct4" mask="00111111b">02_Value</function>
+				<function start="142" end="142" comment="LmmReLut_LogLmpLow4" mask="11000000b">02_Value</function>
+				<function start="143" end="143" comment="LmmReLut_Idx4" mask="11111100b">02_Value</function>
+				<!--LmmReLut5-->
+				<function start="144" end="144" comment="LmmReLut_LgtFct5" mask="00111111b">02_Value</function>
+				<function start="144" end="144" comment="LmmReLut_LogLmpLow5" mask="11000000b">02_Value</function>
+				<function start="145" end="145" comment="LmmReLut_Idx5" mask="11111100b">02_Value</function>
+				<!--LmmReLut6-->
+				<function start="146" end="146" comment="LmmReLut_LgtFct6" mask="00111111b">02_Value</function>
+				<function start="146" end="146" comment="LmmReLut_LogLmpLow6" mask="11000000b">02_Value</function>
+				<function start="147" end="147" comment="LmmReLut_Idx6" mask="11111100b">02_Value</function>
+				<!--LmmReLut7-->
+				<function start="148" end="148" comment="LmmReLut_LgtFct7" mask="00111111b">02_Value</function>
+				<function start="148" end="148" comment="LmmReLut_LogLmpLow7" mask="11000000b">02_Value</function>
+				<function start="149" end="149" comment="LmmReLut_Idx7" mask="11111100b">02_Value</function>
+				<!--LmmReLut8-->
+				<function start="150" end="150" comment="LmmReLut_LgtFct8" mask="00111111b">02_Value</function>
+				<function start="150" end="150" comment="LmmReLut_LogLmpLow8" mask="11000000b">02_Value</function>
+				<function start="151" end="151" comment="LmmReLut_Idx8" mask="11111100b">02_Value</function>
+				<!--LmmReLut9-->
+				<function start="152" end="152" comment="LmmReLut_LgtFct9" mask="00111111b">02_Value</function>
+				<function start="152" end="152" comment="LmmReLut_LogLmpLow9" mask="11000000b">02_Value</function>
+				<function start="153" end="153" comment="LmmReLut_Idx9" mask="11111100b">02_Value</function>
+				<!--LmmReLut10-->
+				<function start="154" end="154" comment="LmmReLut_LgtFct10" mask="00111111b">02_Value</function>
+				<function start="154" end="154" comment="LmmReLut_LogLmpLow10" mask="11000000b">02_Value</function>
+				<function start="155" end="155" comment="LmmReLut_Idx10" mask="11111100b">02_Value</function>
+				<!--LmmReLut11-->
+				<function start="156" end="156" comment="LmmReLut_LgtFct11" mask="00111111b">02_Value</function>
+				<function start="156" end="156" comment="LmmReLut_LogLmpLow11" mask="11000000b">02_Value</function>
+				<function start="157" end="157" comment="LmmReLut_Idx11" mask="11111100b">02_Value</function>
+			</group>
+		</code>
+	</cafd>
+</FDL>
