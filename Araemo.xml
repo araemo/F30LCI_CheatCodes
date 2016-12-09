@@ -2,7 +2,7 @@
 <FDL>
 	<!--Araemo-->
 	<cafd id="00000794" name="FEM_01" author="Araemo" series="F030">
-		<code description="F30 LCI w/ Adaptive LEDs - NGHB Part 2 - (After VO Coding FEM and KAFAS/FLA). See-also both FLEs for Part 3">
+		<code description="(Untested) F30 LCI w/ Adaptive LEDs - NGHB Part 2 - (After VO Coding FEM and KAFAS/FLA). See-also both FLEs for Part 3">
 			<group id="3073">
 				<function start="167" end="175" comment="LUT_AFS_DRV_VERT" mask="11111111b">F030_F30/F31/F35_LEDhigh_ECE</function>
 				<function start="176" end="184" comment="LUT_AFS_CODRV_VERT" mask="11111111b">F030_F30/F31/F35_LEDhigh_ECE</function>
@@ -18,7 +18,7 @@
 		</code>
 	</cafd>
 	<cafd id="000024C3" name="FLE_02" author="Araemo" series="F030">
-		<code description="F30 LCI w/ Adaptive LEDs - NGHB Part 3 - Apply to Both FLEs">
+		<code description="(Untested) F30 LCI w/ Adaptive LEDs - NGHB Part 3 - Apply to Both FLEs">
 			<group id="3000">
 				<function start="4" end="4" comment="HlPrjLabel_HlType" mask="11110000b">01_Value</function>
 			</group>
