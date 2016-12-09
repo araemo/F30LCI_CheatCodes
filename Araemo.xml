@@ -1,8 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <FDL>
 	<!--Araemo-->
+	<cafd id="00000794" name="FEM_01" author="Araemo" series="F030">
+		<code description="F30 LCI w/ Adaptive LEDs - NGHB Part 2 - (After VO Coding FEM and KAFAS/FLA). See-also both FLEs for Part 3">
+			<group id="3073">
+				<function start="167" end="175" comment="LUT_AFS_DRV_VERT" mask="11111111b">F030_F30/F31/F35_LEDhigh_ECE</function>
+				<function start="176" end="184" comment="LUT_AFS_CODRV_VERT" mask="11111111b">F030_F30/F31/F35_LEDhigh_ECE</function>
+				<function start="185" end="193" comment="LUT_AFS_DRV_HOR" mask="11111111b">F030_F30/F31/F35_LEDhigh_ECE</function>
+				<function start="194" end="202" comment="LUT_AFS_CODRV_HOR" mask="11111111b">F030_F30/F31/F35_LEDhigh_ECE</function>
+			</group>
+			<group id="3074">
+				<function start="81" end="86" comment="LUT_HBA_DRV_VERT" mask="11111111b">F030_F30/F31/F35_LED_High_ECE</function>
+				<function start="87" end="92" comment="LUT_HBA_CODRV_VERT" mask="11111111b">F030_F30/F31/F35_LED_High_ECE</function>
+				<function start="93" end="98" comment="LUT_HBA_DRV_HOR" mask="11111111b">F030_F30/F31/F35_LED_High_ECE</function>
+				<function start="99" end="104" comment="LUT_HBA_CODRV_HOR" mask="11111111b">F030_F30/F31/F35_LED_High_ECE</function>
+			</group>
+		</code>
+	</cafd>
 	<cafd id="000024C3" name="FLE_02" author="Araemo" series="F030">
-		<code description="F30 LCI w/ Adaptive LEDs - NGHB. Apply to Both FLEs">
+		<code description="F30 LCI w/ Adaptive LEDs - NGHB Part 3 - Apply to Both FLEs">
 			<group id="3000">
 				<function start="4" end="4" comment="HlPrjLabel_HlType" mask="11110000b">01_Value</function>
 			</group>
